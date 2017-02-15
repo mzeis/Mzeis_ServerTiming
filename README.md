@@ -18,7 +18,14 @@ Install this extension using Composer and modman. In your
 
     "require": {
         "mzeis/mzeis_server-timing": "v1.0.0"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mzeis/Mzeis_ServerTiming"
+        }
+    ]
+    
 
 # Known issues
 

@@ -13,7 +13,12 @@ Thanks Christian Münch for the
 
 # Installation
 
-Install this extension using Composer and modman.
+Install this extension using Composer and modman. In your
+`composer.json`, add an entry like this:
+
+    "require": {
+        "mzeis/mzeis_server-timing": "v1.0.0"
+    }
 
 # Known issues
 

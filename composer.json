@@ -1,0 +1,15 @@
+{
+    "name": "mzeis/mzeis_server-timing",
+    "type": "magento-module",
+    "license": "MIT",
+    "description": "Sends profiling information as a Server Timing HTTP header to the browser",
+    "authors":[
+        {
+            "name": "Matthias Zeis",
+            "email": "admin@matthias-zeis.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

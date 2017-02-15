@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mzeis_ServerTiming>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Mzeis_ServerTiming>
+    </modules>
+</config>

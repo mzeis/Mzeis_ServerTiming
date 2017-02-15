@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mzeis_ServerTiming>
+            <version>1.0.0</version>
+        </Mzeis_ServerTiming>
+    </modules>
+    <global>
+        <models>
+            <mzeis_servertiming>
+                <class>Mzeis_ServerTiming_Model</class>
+            </mzeis_servertiming>
+        </models>
+    </global>
+    <frontend>
+        <events>
+            <controller_front_send_response_before>
+                <observers>
+                    <mzeis_servertiming>
+                        <class>mzeis_servertiming/observer</class>
+                        <method>addServerTimingHeader</method>
+                    </mzeis_servertiming>
+                </observers>
+            </controller_front_send_response_before>
+        </events>
+    </frontend>
+</config>

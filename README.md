@@ -4,7 +4,7 @@
 
 Small Magento 1 example extension that shows how `Varien_Profiler`
 information can be sent to the browser using the `Server-Timing` HTTP
-header so profiling info can be displayed e.g. bei Google Chrome.
+header so profiling info can be displayed e.g. by Google Chrome.
 
 **Note**: this is only an example, so don't use it in production! As
 soon as `Varien_Profiler::getTimers()` returns values they will be sent

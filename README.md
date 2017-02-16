@@ -1,5 +1,7 @@
 # Mzeis_ServerTiming
 
+![Server-Timing in action in Chrome](docs/screenshot.jpg)
+
 Small Magento 1 example extension that shows how `Varien_Profiler`
 information can be sent to the browser using the `Server-Timing` HTTP
 header so profiling info can be displayed e.g. bei Google Chrome.

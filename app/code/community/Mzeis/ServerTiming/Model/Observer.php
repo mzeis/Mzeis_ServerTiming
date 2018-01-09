@@ -19,7 +19,7 @@ class Mzeis_ServerTiming_Model_Observer
 
         foreach (Varien_Profiler::getTimers() as $name => $values) {
             if ($values['sum'] >= self::THRESHOLD_VALUE) {
-                $result[] = str_replace([' ', ':', '/'], '-', $name) . '=' . number_format((float)$values['sum'], 4) . '; "' . $name . '"';
+                $result[] = str_replace([' ', ':', '/'], '-', $name) . ';dur=' . number_format((float)$values['sum'], 4) . ';desc="' . $name . '"';
             }
         }
 
